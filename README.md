@@ -1,5 +1,6 @@
 - 👋 Hi, I’m @KellyDRasmussen
 - 👀 I’m interested in data analysis
+- 🤖 I like to script automations, especially using OpenAI API 
 - 🌱 I’m currently learning Python
 - 📫 How to reach me: LinkedIn profile
 

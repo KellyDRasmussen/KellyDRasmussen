@@ -1,8 +1,10 @@
 - 👋 Hi, I’m @KellyDRasmussen
-- 👀 I’m interested in data analysis
-- 🤖 I like to script automations, especially using OpenAI API 
-- 🌱 I’m currently learning Python
-- 📫 How to reach me: LinkedIn profile
+- 🌍 Passionate about sustainability
+- 📊 Experienced in data analysis and visualisation
+- 🤖 Scripting automations with OpenAI API on Google Scripts
+- 🔧 Currently enhancing Python skills
+- 🌱 Working on decarbonising Aarhus schools with solar panels: Solar Aarhus
+- 📫 Reach me on LinkedIn
 
 <!---
 KellyDRasmussen/KellyDRasmussen is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

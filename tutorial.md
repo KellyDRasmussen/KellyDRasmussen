@@ -2,6 +2,8 @@
 
 We need this by the end of today (Friday) so that we can use your code for the next part.
 
+Steps 1-4 are on this video: <a href="https://www.awesomescreenshot.com/video/27989529?key=bda2677a21a2a9177cac488092005fef"> Tutorial Video </a>
+
 #### Step 1: Filter Products on the Website
 1. Go to [Arla Pro's website](https://www.arlapro.com/da/produkter/).
 2. Filter the products to display only "Ost" and "Unika" categories. 

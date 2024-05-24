@@ -33,10 +33,9 @@ Now, let's move on to the coding part to clean and process the CSV file. We'll g
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
    from google.colab import drive
    drive.mount('/content/drive')
-   ```
+
    </details>
 
 ##### Step 5.2: Load the Libraries
@@ -44,10 +43,10 @@ Import the necessary libraries. Type the following code and run it:
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    import pandas as pd
    import numpy as np
-   ```
+   
    </details>
 
 ##### Step 5.3: Load the CSV File
@@ -55,10 +54,10 @@ Load the CSV file into a pandas DataFrame. Adjust the file path if necessary:
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    file_path = '/content/drive/My Drive/team cheese/data/raw/unika_products.csv'
    df = pd.read_csv(file_path)
-   ```
+   
    </details>
 
 ##### Step 5.4: Delete "KØB NU" and "UNIKA"
@@ -66,10 +65,10 @@ Replace the values "KØB NU" and "UNIKA" with `NaN`. Run the following code:
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    values_to_delete = ['UNIKA', 'KØB NU']
    df['Product'] = df['Product'].replace(values_to_delete, np.nan)
-   ```
+   
    </details>
 
 ##### Step 5.5: Delete Copies (Remove Duplicates)
@@ -77,13 +76,13 @@ Keep only the first occurrence of each product name and replace duplicates with 
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    def remove_duplicates(column):
        seen = set()
        return [x if x not in seen and not seen.add(x) else np.nan for x in column]
 
    df['Product'] = remove_duplicates(df['Product'])
-   ```
+   
    </details>
 
 ##### Step 5.6: Delete Rows with `NaN`
@@ -91,9 +90,9 @@ Remove rows that contain `NaN` values. Run this code:
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    df = df.dropna()
-   ```
+   
    </details>
 
 ##### Step 5.7: Reindex the DataFrame
@@ -101,9 +100,9 @@ Reset the index of the DataFrame to ensure it starts from 0. Use the following c
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    df = df.reset_index(drop=True)
-   ```
+   
    </details>
 
 ##### Step 5.8: Save the Cleaned Data
@@ -111,10 +110,10 @@ Save the cleaned DataFrame back to a CSV file. Adjust the file path if necessary
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    cleaned_file_path = '/content/drive/My Drive/team cheese/data/processed/unika_products_cleaned.csv'
    df.to_csv(cleaned_file_path, index=False)
-   ```
+   
    </details>
    
 #### Step 1: Filter Castello Products on the Website
@@ -148,10 +147,10 @@ Now, let's move on to the coding part to clean and process the CSV file. We'll g
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    from google.colab import drive
    drive.mount('/content/drive')
-   ```
+   
    </details>
 
 ##### Step 5.2: Load the Libraries
@@ -159,10 +158,10 @@ Import the necessary libraries. Type the following code and run it:
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    import pandas as pd
    import numpy as np
-   ```
+   
    </details>
 
 ##### Step 5.3: Load the CSV File
@@ -170,10 +169,10 @@ Load the CSV file into a pandas DataFrame. Adjust the file path if necessary:
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    file_path = '/content/drive/My Drive/team cheese/data/raw/castello_products.csv'
    df = pd.read_csv(file_path)
-   ```
+   
    </details>
 
 ##### Step 5.4: Delete "KØB NU" and "UNIKA"
@@ -181,10 +180,10 @@ Replace the values "KØB NU" and "UNIKA" with `NaN`. Run the following code:
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    values_to_delete = ['UNIKA', 'KØB NU']
    df['Product'] = df['Product'].replace(values_to_delete, np.nan)
-   ```
+   
    </details>
 
 ##### Step 5.5: Delete Copies (Remove Duplicates)
@@ -192,13 +191,13 @@ Keep only the first occurrence of each product name and replace duplicates with 
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    def remove_duplicates(column):
        seen = set()
        return [x if x not in seen and not seen.add(x) else np.nan for x in column]
 
    df['Product'] = remove_duplicates(df['Product'])
-   ```
+   
    </details>
 
 ##### Step 5.6: Delete Rows with `NaN`
@@ -206,9 +205,9 @@ Remove rows that contain `NaN` values. Run this code:
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    df = df.dropna()
-   ```
+   
    </details>
 
 ##### Step 5.7: Reindex the DataFrame
@@ -216,9 +215,9 @@ Reset the index of the DataFrame to ensure it starts from 0. Use the following c
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    df = df.reset_index(drop=True)
-   ```
+   
    </details>
 
 ##### Step 5.8: Save the Cleaned Data
@@ -226,8 +225,8 @@ Save the cleaned DataFrame back to a CSV file. Adjust the file path if necessary
    <details>
    <summary>Click to expand code</summary>
 
-   ```python
+   
    cleaned_file_path = '/content/drive/My Drive/team cheese/data/processed/castello_products_cleaned.csv'
    df.to_csv(cleaned_file_path, index=False)
-   ```
+   
    </details>

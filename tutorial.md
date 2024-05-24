@@ -35,7 +35,7 @@ Now, let's move on to the coding part to clean and process the CSV file. We'll g
    <details>
    <summary>Click to expand code</summary>
 
-   from google.colab import drive<p>
+   from google.colab import drive</p>
    drive.mount('/content/drive')
 
    </details>
@@ -46,7 +46,7 @@ Import the necessary libraries. Type the following code and run it:
    <summary>Click to expand code</summary>
 
    
-   import pandas as pd<p>
+   import pandas as pd</p>
    import numpy as np
    
    </details>
@@ -57,7 +57,7 @@ Load the CSV file into a pandas DataFrame. Adjust the file path if necessary:
    <summary>Click to expand code</summary>
 
    
-   file_path = '/content/drive/My Drive/team cheese/data/raw/unika_products.csv'<p>
+   file_path = '/content/drive/My Drive/team cheese/data/raw/unika_products.csv'</p>
    df = pd.read_csv(file_path)
    
    </details>
@@ -68,7 +68,7 @@ Replace the values "KØB NU" and "UNIKA" with `NaN`. Run the following code:
    <summary>Click to expand code</summary>
 
    
-   values_to_delete = ['UNIKA', 'KØB NU']<p>
+   values_to_delete = ['UNIKA', 'KØB NU']</p>
    df['Product'] = df['Product'].replace(values_to_delete, np.nan)
    
    </details>
@@ -79,11 +79,11 @@ Keep only the first occurrence of each product name and replace duplicates with 
    <summary>Click to expand code</summary>
 
    
-   def remove_duplicates(column):<p>
-       seen = set()<p>
-       return [x if x not in seen and not seen.add(x) else np.nan for x in column]<p>
-<p>
-   df['Product'] = remove_duplicates(df['Product'])<p>
+   def remove_duplicates(column):</p>
+       seen = set()</p>
+       return [x if x not in seen and not seen.add(x) else np.nan for x in column]</p>
+</p>
+   df['Product'] = remove_duplicates(df['Product'])</p>
    
    </details>
 
@@ -113,7 +113,7 @@ Save the cleaned DataFrame back to a CSV file. Adjust the file path if necessary
    <summary>Click to expand code</summary>
 
    
-   cleaned_file_path = '/content/drive/My Drive/team cheese/data/processed/unika_products_cleaned.csv'<p>
+   cleaned_file_path = '/content/drive/My Drive/team cheese/data/processed/unika_products_cleaned.csv'</p>
    df.to_csv(cleaned_file_path, index=False)
    
    </details>
@@ -150,7 +150,7 @@ Now, let's move on to the coding part to clean and process the CSV file. We'll g
    <summary>Click to expand code</summary>
 
    
-   from google.colab import drive<p>
+   from google.colab import drive</p>
    drive.mount('/content/drive')
    
    </details>
@@ -161,7 +161,7 @@ Import the necessary libraries. Type the following code and run it:
    <summary>Click to expand code</summary>
 
    
-   import pandas as pd<p>
+   import pandas as pd</p>
    import numpy as np
    
    </details>
@@ -172,7 +172,7 @@ Load the CSV file into a pandas DataFrame. Adjust the file path if necessary:
    <summary>Click to expand code</summary>
 
    
-   file_path = '/content/drive/My Drive/team cheese/data/raw/castello_products.csv'<p>
+   file_path = '/content/drive/My Drive/team cheese/data/raw/castello_products.csv'</p>
    df = pd.read_csv(file_path)
    
    </details>
@@ -183,7 +183,7 @@ Replace the values "KØB NU" and "UNIKA" with `NaN`. Run the following code:
    <summary>Click to expand code</summary>
 
    
-   values_to_delete = ['UNIKA', 'KØB NU']<p>
+   values_to_delete = ['UNIKA', 'KØB NU']</p>
    df['Product'] = df['Product'].replace(values_to_delete, np.nan)
    
    </details>
@@ -194,10 +194,10 @@ Keep only the first occurrence of each product name and replace duplicates with 
    <summary>Click to expand code</summary>
 
    
-   def remove_duplicates(column):<p>
-       seen = set()<p>
-       return [x if x not in seen and not seen.add(x) else np.nan for x in column]<p>
-<p>
+   def remove_duplicates(column):</p>
+       seen = set()</p>
+       return [x if x not in seen and not seen.add(x) else np.nan for x in column]</p>
+</p>
    df['Product'] = remove_duplicates(df['Product'])
    
    </details>
@@ -228,7 +228,7 @@ Save the cleaned DataFrame back to a CSV file. Adjust the file path if necessary
    <summary>Click to expand code</summary>
 
    
-   cleaned_file_path = '/content/drive/My Drive/team cheese/data/processed/castello_products_cleaned.csv'<p>
+   cleaned_file_path = '/content/drive/My Drive/team cheese/data/processed/castello_products_cleaned.csv'</p>
    df.to_csv(cleaned_file_path, index=False)
    
    </details>

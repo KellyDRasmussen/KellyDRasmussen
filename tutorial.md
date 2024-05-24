@@ -1,6 +1,3 @@
-Here is your cleaned-up markup code for your GitHub page:
-
-```markdown
 ### Tutorial: Cleaning and Processing Product Data
 
 We need this by the end of today (Friday) so that we can use your code for the next part.

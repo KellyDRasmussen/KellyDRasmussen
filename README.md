@@ -3,7 +3,7 @@
 - 📊 Experienced in data analysis and visualisation
 - 🤖 Scripting automations with OpenAI API on Google Scripts
 - 🔧 Currently enhancing Python skills
-- 🌱 Working on decarbonising Aarhus schools with solar panels: Solar Aarhus
+- 🌱 Can we decarbon Aarhus schools with solar panels?
 - 📫 Reach me on LinkedIn
 
 <!---

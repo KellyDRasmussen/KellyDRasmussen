@@ -1,9 +1,8 @@
 - 👋 Hi, I’m @KellyDRasmussen
-- 🌍 Passionate about sustainability
-- 📊 Experienced in data analysis and visualisation
+- 🌍 Passionate about sustainability. Can we decarbon Aarhus schools with solar panels?
+- 📊 Experienced in data analysis and visualisation with Python
 - 🤖 Scripting automations with OpenAI API on Google Scripts
-- 🔧 Currently enhancing Python skills
-- 🌱 Can we decarbon Aarhus schools with solar panels?
+- 🎮 Text adventure author
 - 📫 Reach me on LinkedIn
 
 <!---

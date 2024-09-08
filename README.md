@@ -1,11 +1,21 @@
-- 👋 Hi, I’m @KellyDRasmussen
-- 🌍 Passionate about sustainability. Can we decarbon Aarhus schools with solar panels?
-- 📊 Experienced in data analysis and visualisation with Python
-- 🤖 Scripting automations with OpenAI API on Google Scripts
-- 🎮 Text adventure author
-- 📫 Reach me on LinkedIn
+👋 Hi, I'm Kelly Rasmussen  [LinkedIn](https://www.linkedin.com/in/kellydraperrasmussen/)
+- 🌍 Passionate about sustainability and tech solutions  
+- 📊 Skilled in data analysis and visualisation with Python  
+- 🤖 Creating automations with OpenAI API and Google Scripts  
+- 🎮 Author of interactive text adventures  
+- 🎥 Built a Raspberry Pi stop-motion animation rig for my children  
+- 🌱 Developed an air quality sensor with Raspberry Pi to monitor and analyse environmental data
 
-<!---
-KellyDRasmussen/KellyDRasmussen is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Skills & Technologies
+
+- **Languages**: Python, SQL, JavaScript
+- **Tools & Libraries**: 
+  - **Data Manipulation**: pandas, numpy, scipy
+  - **Data Visualisation**: Plotly, Dash, matplotlib, seaborn
+  - **Web Development**: Flask
+  - **APIs and Scripting**: beautifulsoup
+- **Platforms & Environments**: Experience with Raspberry Pi, currently working towards DP-900 certification (Azure Data Fundamentals)
+- **Databases**: MySQL, Azure SQL Database
+- **Other Skills**: Physics background with experience in data analysis
+- **Unique Skills**: Proficiency in Fortran (and other vintage programming languages like Pascal and BASIC 👵)
+

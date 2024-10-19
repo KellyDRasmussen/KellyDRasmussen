@@ -13,8 +13,8 @@
   - **Data Manipulation**: pandas, numpy, scipy
   - **Data Visualisation**: Plotly, Dash, matplotlib, seaborn
   - **Web Development**: Flask
-  - **APIs and Scripting**: beautifulsoup
-- **Platforms & Environments**: Experience with Raspberry Pi, currently working towards DP-900 certification (Azure Data Fundamentals)
+  - **APIs and Scripting**: beautifulsoup, chatGPT, adafruit.io
+- **Platforms & Environments**: Experience with Raspberry Pi,  DP-900 certified (Azure Data Fundamentals), working towards PL-300 (Power BI certification)
 - **Databases**: MySQL, Azure SQL Database
 - **Other Skills**: Physics background with experience in data analysis
 - **Unique Skills**: Proficiency in Fortran (and other vintage programming languages like Pascal and BASIC 👵)

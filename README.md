@@ -14,8 +14,8 @@
   - **Data Visualisation**: Plotly, Dash, matplotlib, seaborn
   - **Web Development**: Flask
   - **APIs and Scripting**: beautifulsoup, chatGPT, adafruit.io
-- **Platforms & Environments**: Experience with Raspberry Pi,  DP-900 certified (Azure Data Fundamentals), working towards PL-300 (Power BI certification)
+- **Platforms & Environments**: Experience with Raspberry Pi,  DP-900 (Azure Data Fundamentals) and PL-300 (Power BI Data Analyst Associate) certified
 - **Databases**: MySQL, Azure SQL Database
-- **Other Skills**: Physics background with experience in data analysis
+- **Other Skills**: Astrophysics background with experience in data analysis
 - **Unique Skills**: Proficiency in Fortran (and other vintage programming languages like Pascal and BASIC 👵)
 

@@ -10,9 +10,9 @@
 
 📚 Ex-physics teacher with a thing for messy data and clean models
 
-Tools & Skills
-Languages: Python, SQL, JavaScript
-Data: pandas, Power BI, Plotly, seaborn
-Automation: OpenAI API, Apps Script, Flask
-Certs: PL-300, DP-900
-Bonus: Fortran, BASIC, and other retro gems
+**Tools & Skills**
+* Languages: Python, SQL, JavaScript
+* Data: pandas, Power BI, Plotly, seaborn
+* Automation: OpenAI API, Apps Script, Flask
+* Certs: PL-300, DP-900
+* Bonus: Fortran, BASIC, and other retro gems

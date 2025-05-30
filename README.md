@@ -1,21 +1,18 @@
-👋 Hi, I'm Kelly Rasmussen  [LinkedIn](https://www.linkedin.com/in/kellydraperrasmussen/)
-- 🌍 Passionate about sustainability and tech solutions  
-- 📊 Skilled in data analysis and visualisation with Python  
-- 🤖 Creating automations with OpenAI API and Google Scripts  
-- 🎮 Author of interactive text adventures  
-- 🎥 Built a Raspberry Pi stop-motion animation rig for my children  
-- 🌱 Developed an air quality sensor with Raspberry Pi to monitor and analyse environmental data
+👋 Hi, I'm Kelly Rasmussen
 
-## Skills & Technologies
+📊 Data analyst
 
-- **Languages**: Python, SQL, JavaScript
-- **Tools & Libraries**: 
-  - **Data Manipulation**: pandas, numpy, scipy
-  - **Data Visualisation**: Plotly, Dash, matplotlib, seaborn
-  - **Web Development**: Flask
-  - **APIs and Scripting**: beautifulsoup, chatGPT, adafruit.io
-- **Platforms & Environments**: Experience with Raspberry Pi,  DP-900 (Azure Data Fundamentals) and PL-300 (Power BI Data Analyst Associate) certified
-- **Databases**: MySQL, Azure SQL Database
-- **Other Skills**: Astrophysics background with experience in data analysis
-- **Unique Skills**: Proficiency in Fortran (and other vintage programming languages like Pascal and BASIC 👵)
+🧰 Builds user-friendly dashboards in Power BI and Python
 
+🤖 Automates with OpenAI, Google Scripts, and Raspberry Pi
+
+🎮 Writes narrative games in Twine and Inky
+
+📚 Ex-physics teacher with a thing for messy data and clean models
+
+Tools & Skills
+Languages: Python, SQL, JavaScript
+Data: pandas, Power BI, Plotly, seaborn
+Automation: OpenAI API, Apps Script, Flask
+Certs: PL-300, DP-900
+Bonus: Fortran, BASIC, and other retro gems
